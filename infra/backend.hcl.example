@@ -1,0 +1,7 @@
+# Copy this file to backend.hcl after the bootstrap layer creates the state
+# bucket. backend.hcl is intentionally ignored by Git.
+bucket       = "replace-with-globally-unique-state-bucket"
+key          = "llm-ollama-eks/dev/terraform.tfstate"
+region       = "us-east-1"
+encrypt      = true
+use_lockfile = true

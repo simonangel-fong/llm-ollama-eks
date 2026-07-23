@@ -1,0 +1,6 @@
+env = "dev"
+
+# Refresh with: curl.exe -4 https://ifconfig.me
+eks_endpoint_public_access_cidrs = ["99.243.74.50/32"]
+
+tags = {}
